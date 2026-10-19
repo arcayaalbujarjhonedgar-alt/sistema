@@ -1,0 +1,180 @@
+/* Estilos Generales */
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 40px 20px;
+    background-color: #fff;
+}
+
+h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.subtitulo {
+    text-align: center;
+    color: #666;
+    margin-bottom: 40px;
+    font-size: 0.95rem;
+}
+
+/* Botones estilo píldora con color cian */
+.contenedor-boton {
+    text-align: center;
+    margin-top: 35px;
+}
+
+.btn-cyan {
+    background-color: #00bcd4;
+    color: white;
+    padding: 10px 22px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 0.9rem;
+    display: inline-block;
+    transition: background 0.3s ease;
+}
+
+.btn-cyan:hover {
+    background-color: #0097a7;
+}
+
+/* --- SECCIÓN PROYECTOS --- */
+.proyectos-section {
+    margin-bottom: 80px;
+}
+
+.proyectos-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+    max-width: 950px;
+    margin: 0 auto;
+}
+
+.proyecto-card {
+    background: #f4f4f4;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.proyecto-card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    display: block;
+}
+
+/* --- SECCIÓN ARTÍCULOS --- */
+.articulos-section {
+    margin-bottom: 80px;
+}
+
+.articulos-tabla-container {
+    max-width: 800px;
+    margin: 0 auto;
+    border: 1px solid #dcdcdc;
+    border-radius: 4px;
+    background: #fff;
+}
+
+.articulos-header {
+    background-color: #f8f9fa;
+    padding: 12px 20px;
+    font-weight: bold;
+    border-bottom: 1px solid #dcdcdc;
+    font-size: 1rem;
+}
+
+.articulos-lista {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.articulos-lista li {
+    padding: 14px 20px;
+    border-bottom: 1px solid #eee;
+}
+
+.articulos-lista li:last-child {
+    border-bottom: none;
+}
+
+.articulos-lista a {
+    color: #0056b3;
+    text-decoration: none;
+    font-size: 0.95rem;
+}
+
+.articulos-lista a:hover {
+    text-decoration: underline;
+}
+
+/* --- SECCIÓN TESTIMONIOS --- */
+.testimonios-section {
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.testimonio-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.testimonio-contenido {
+    flex: 1;
+    padding: 0 20px;
+}
+
+.avatar-container img {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 0 auto 15px auto;
+    display: block;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.testimonio-texto {
+    font-family: monospace; /* Da el estilo de tipografía mecanografiada de la captura */
+    font-size: 0.95rem;
+    line-height: 1.6;
+    color: #222;
+    margin-bottom: 20px;
+}
+
+.testimonio-autor {
+    margin: 0;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #000;
+}
+
+.testimonio-cargo {
+    margin: 4px 0 0 0;
+    font-size: 0.85rem;
+    color: #555;
+}
+
+.flecha-slider {
+    background: none;
+    border: none;
+    font-size: 1.8rem;
+    cursor: pointer;
+    color: #333;
+    padding: 10px;
+}
+
+.flecha-slider:hover {
+    color: #00bcd4;
+}

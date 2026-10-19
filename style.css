@@ -1,0 +1,263 @@
+section{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+      }
+      .pagina-principal{
+        min-height: 600px;
+        background-color: rgb(165, 210, 135);
+        flex-wrap: wrap;
+      }
+      .imagen-desarrollador{
+        width: 500;
+        height: 100px;
+      }
+      .titulo-principal{
+        font-family: "Rubik Maps", system-ui;
+        /* font-weight: 400;
+        font-style: normal; */
+      }
+      .titulo-secundario{
+        font-size: 30px;
+        color: rgb(224, 143, 68);
+        /* font-family: 'Courier New', Courier, monospace; */
+        font-weight: bold;
+        text-align: center;
+        font-family: "Rubik Maps", system-ui;
+      }
+      
+      .imagen-principal{
+        width: 500px;
+        height: 200px;
+        color:rgb(205, 245, 8)
+
+      }
+      
+      .container-2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(149, 142, 211);
+        margin-left: 0px;
+        margin-right: 0px;
+        min-height: 400px;
+      }
+      .sobre-mi{
+        font-family: "Rubik Maps", "system-ui";
+        /* font-size: 30px; */
+        padding-top: 10px;
+        color: azure;
+       
+      }
+      .descrip-sobre-mi{
+        text-align: center;
+        color: rgb(14, 14, 14);
+        font-size: 20px;
+        max-width: 600px;
+        font-family: "Rubik Maps", system-ui;
+        text-align: justify;
+        
+      }
+      .experiencia{
+      
+        min-height: 400px;
+        background-color: rgb(238, 238, 241);
+      }
+      .row{
+        border: solid 1px red;
+        background-color: rgb(246, 246, 246);
+      }
+      .column{
+        border: 1px solid red;
+      }
+      
+      .titulo-exp{
+        text-align: center;
+      }
+      i{
+      color: red;
+      font-size: 30px;
+      }
+      /* Estilos Generales */
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 40px 20px;
+    background-color: #fff;
+}
+
+h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.subtitulo {
+    text-align: center;
+    color: #666;
+    margin-bottom: 40px;
+    font-size: 0.95rem;
+}
+
+/* Botones estilo píldora con color cian */
+.contenedor-boton {
+    text-align: center;
+    margin-top: 35px;
+}
+
+.btn-cyan {
+    background-color: #00bcd4;
+    color: white;
+    padding: 10px 22px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 0.9rem;
+    display: inline-block;
+    transition: background 0.3s ease;
+}
+
+.btn-cyan:hover {
+    background-color: #0097a7;
+}
+
+/* --- SECCIÓN PROYECTOS --- */
+.proyectos-section {
+    margin-bottom: 80px;
+}
+
+.proyectos-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+    max-width: 950px;
+    margin: 0 auto;
+}
+
+.proyecto-card {
+    background: #f4f4f4;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.proyecto-card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    display: block;
+}
+
+/* --- SECCIÓN ARTÍCULOS --- */
+.articulos-section {
+    margin-bottom: 80px;
+}
+
+.articulos-tabla-container {
+    max-width: 800px;
+    margin: 0 auto;
+    border: 1px solid #dcdcdc;
+    border-radius: 4px;
+    background: #fff;
+}
+
+.articulos-header {
+    background-color: #f8f9fa;
+    padding: 12px 20px;
+    font-weight: bold;
+    border-bottom: 1px solid #dcdcdc;
+    font-size: 1rem;
+}
+
+.articulos-lista {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.articulos-lista li {
+    padding: 14px 20px;
+    border-bottom: 1px solid #eee;
+}
+
+.articulos-lista li:last-child {
+    border-bottom: none;
+}
+
+.articulos-lista a {
+    color: #0056b3;
+    text-decoration: none;
+    font-size: 0.95rem;
+}
+
+.articulos-lista a:hover {
+    text-decoration: underline;
+}
+
+/* --- SECCIÓN TESTIMONIOS --- */
+.testimonios-section {
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.testimonio-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.testimonio-contenido {
+    flex: 1;
+    padding: 0 20px;
+}
+
+.avatar-container img {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 0 auto 15px auto;
+    display: block;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.testimonio-texto {
+    font-family: monospace; /* Da el estilo de tipografía mecanografiada de la captura */
+    font-size: 0.95rem;
+    line-height: 1.6;
+    color: #222;
+    margin-bottom: 20px;
+}
+
+.testimonio-autor {
+    margin: 0;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #000;
+}
+
+.testimonio-cargo {
+    margin: 4px 0 0 0;
+    font-size: 0.85rem;
+    color: #555;
+}
+
+.flecha-slider {
+    background: none;
+    border: none;
+    font-size: 1.8rem;
+    cursor: pointer;
+    color: #333;
+    padding: 10px;
+}
+
+.flecha-slider:hover {
+    color: #00bcd4;
+}
